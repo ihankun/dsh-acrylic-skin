@@ -1,0 +1,48 @@
+{
+  "name": "dsh-acrylic-skin",
+  "version": "0.1.0",
+  "description": "Windows acrylic skin for DeepSeek Harness Desktop: a translucent caption strip and sidebar over the native DWM acrylic backdrop.",
+  "license": "MIT",
+  "author": "ihankun",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "icon.svg",
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-bundle",
+    "dsh-plugin",
+    "acrylic",
+    "windows",
+    "skin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihankun/dsh-acrylic-skin.git"
+  },
+  "engines": {
+    "dsh": ">=0.2.3-alpha.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

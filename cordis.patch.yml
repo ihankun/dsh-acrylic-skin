@@ -1,0 +1,5 @@
+# Mount the browser-only acrylic skin. The row's package also supplies the
+# `./client` bundle that the Web client scans from this Host entry.
+- insert:
+    - id: acrylic-skin
+      name: dsh-acrylic-skin
