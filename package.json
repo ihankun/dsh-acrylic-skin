@@ -1,6 +1,6 @@
 {
   "name": "dsh-acrylic-skin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Windows acrylic skin for DeepSeek Harness Desktop: a translucent caption strip and sidebar over the native DWM acrylic backdrop.",
   "license": "MIT",
   "author": "ihankun",
@@ -35,7 +35,7 @@
     "url": "git+https://github.com/ihankun/dsh-acrylic-skin.git"
   },
   "engines": {
-    "dsh": ">=0.2.3-alpha.2"
+    "dsh": ">=0.2.2-rc.5"
   },
   "dsh": {
     "bundle": {

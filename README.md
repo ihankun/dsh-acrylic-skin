@@ -54,7 +54,7 @@ There is no build step: `lib/client.js` carries its stylesheet inline.
 
 ## Compatibility
 
-`engines.dsh` requires `>=0.2.3-alpha.2`. The skin targets that client DOM. A future sidebar redesign may rename the two class suffixes; the tint, transparency, and glass fills then need a matching selector update. Everything else keys off slot anchors and theme tokens.
+`engines.dsh` requires `>=0.2.2-rc.5`. The skin targets that client DOM. The acrylic material itself still needs a shell that sets the marker: the 0.2.2-rc.5 desktop release uses acrylic only for its welcome window, so the skin stays inactive there. A future sidebar redesign may rename the two class suffixes; the tint, transparency, and glass fills then need a matching selector update. Everything else keys off slot anchors and theme tokens.
 
 The skin duplicates the built-in acrylic rules currently present on the `deepseek-harness` `dev` branch. It exists so the visual treatment can ship as a plugin; when the shell keeps only the native material support, this plugin supplies the page surfaces on its own.
 
